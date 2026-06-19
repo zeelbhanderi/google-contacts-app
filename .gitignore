@@ -1,0 +1,150 @@
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.project
+.svn/
+bin/
+captures/
+flutter_*.png
+version
+.uuid
+*.tmp
+*.swo
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+lib/generated_plugin_registrant.dart
+flutter_export_environment.sh
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# For library packages, don’t commit the pubspec.lock file.
+# Regenerating the pubspec.lock file lets you test your package against the latest compatible versions of its dependencies.
+# See https://dart.dev/guides/libraries/private-files#pubspeclock
+#pubspec.lock
+
+# If you're building an application, you may want to check-in your pubspec.lock
+pubspec.lock
+
+# Environment / Config Files
+.env
+.env.*
+pubspec_overrides.yaml
+_pubspec_overrides.yaml
+*.g.dart
+
+
+# Android related
+**/android/**/build/
+**/android/**/gradle-wrapper.jar
+**/android/.gradle/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/key.properties
+**/android/local.properties
+# **/android/app/google-services.json
+# **/android/app/src/**/google-services.json
+**/android/app/.cxx/
+*.cxx
+
+# iOS/XCode related
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/**/xcuserdata/
+**/ios/Flutter/App.framework/
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Runner.xcworkspace
+**/ios/.generated/
+DerivedData/
+*.xcworkspace
+
+**/macos/Pods/
+**/macos/.symlinks/
+**/macos/**/xcuserdata/
+**/macos/Flutter/Flutter.framework/
+**/macos/Flutter/Generated.xcconfig
+**/macos/Flutter/flutter_export_environment.sh
+**/macos/Flutter/ephemeral/
+**/macos/.generated/
+**/macos/Runner.xcworkspace
+
+# Windows / Linux / Web (Flutter platform) related
+**/windows/flutter/
+**/windows/.dart_tool/
+**/windows/**/GeneratedPluginRegistrant.*
+
+**/linux/flutter/
+**/linux/.dart_tool/
+**/linux/**/GeneratedPluginRegistrant.*
+
+**/web/.dart_tool/
+**/web/build/
+
+
+# Firebase related
+# .firebase/
+# .firebaserc
+# firebase.json
+# **/lib/firebase_options.dart
+# **/lib/firebase_options_*.dart
+
+# IDE related
+.idea/
+*.iml
+.vscode/
+.local/
+Thumbs.db
+
+# Visual Studio related
+.vs/
+
+# Android Studio related
+.classpath
+**/.settings/
+
+# Sqflite example related
+/sqflite/example/.flutter-plugins-dependencies
+
+# Pods and iOS specific
+Pods/
+.symlinks/
+**/Flutter/App.framework/
+**/Flutter/Flutter.framework/
+**/Flutter/Generated.xcconfig
+**/Flutter/flutter_assets/
+ServiceDefinitions.json
+xcuserdata/
+**/DerivedData/
+
+# Generated files
+GeneratedPluginRegistrant.h
+GeneratedPluginRegistrant.m
+GeneratedPluginRegistrant.java
+
+# FlutterSecurity Files
+*.jks
+**/key.properties
+**/*keystore.jks
+
+# -----------------------------------------------------------------------------
+# .gitignore file created by Zeel
+# GitHub: https://github.com/zeelbhanderi
+# LinkedIn: https://linkedin.com/in/zeelbhanderi
+# Portfolio: https://zeelbhanderi.netlify.app
+# -----------------------------------------------------------------------------

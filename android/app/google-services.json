@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "587864680068",
+    "project_id": "contacts-d80cc",
+    "storage_bucket": "contacts-d80cc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587864680068:android:730bb4f7b8a0f815c484d1",
+        "android_client_info": {
+          "package_name": "com.zeel.contacts.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqdRp8rOhzyGwWCrO3BeDhqDAKGX4zQFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
