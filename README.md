@@ -4,13 +4,7 @@ A cross-platform Flutter contacts manager with Google Sign-In, cloud sync via Fi
 
 **Note:** Firebase-related files are included in this source code repository. I understand that committing these files is not considered a best practice. However, they have been included intentionally so that interviewers can easily set up and run the project without any additional configuration.
 
-[App features and functionality are explained and demonstrated in this video.](https://youtu.be/XHG-Y23kQ6A)
-
-[Code and File Folder Structure Explanation](https://youtu.be/gmht31qTo6E)
-
 APK Dowlonad: https://drive.google.com/file/d/1R2Y_NZMkYUfJOKlX3xs4jDCPKluqsADT/view?usp=sharing
-
-Localization : https://docs.google.com/spreadsheets/d/11SqFYsxrMb-S4P5WOddPovPvW1JOaQiv4ZUVnCRcSc8/edit?usp=sharing
 
 ## Features
 
@@ -135,14 +129,15 @@ To get a local copy up and running, follow these simple steps.
    ```
 
 ## Technologies Used
-| Layer | Technology                                                                                                                                                          |
-|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Framework | Flutter (3.35.5) - Dart SDK ( 3.9.2 )   UI toolkit for building natively compiled applications.                                                                     |
+
+| Layer            | Technology                                                                                                                                                          |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Framework        | Flutter (3.35.5) - Dart SDK ( 3.9.2 ) UI toolkit for building natively compiled applications.                                                                       |
 | State management | [GetX](https://pub.dev/packages/get) : State management, route management, and dependency injection. (HR said I can choose any state management solution I prefer.) |
-| Local database | [sqflite](https://pub.dev/packages/sqflite)                                                                                                                         |
-| Cloud | Firebase Auth, Cloud Firestore                                                                                                                                      |
-| Sign-in | Google Sign-In                                                                                                                                                      |
-| Architecture | Clean architecture (domain / data / features)                                                                                                                       |
+| Local database   | [sqflite](https://pub.dev/packages/sqflite)                                                                                                                         |
+| Cloud            | Firebase Auth, Cloud Firestore                                                                                                                                      |
+| Sign-in          | Google Sign-In                                                                                                                                                      |
+| Architecture     | Clean architecture (domain / data / features)                                                                                                                       |
 
 ### Run code generation (optional)
 
